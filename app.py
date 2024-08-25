@@ -108,7 +108,7 @@ class App:
     def launch(self):
         demo = self.musepose_demo()
         demo.queue().launch(
-            share=self.args.share
+            share=True
         )
 
 
