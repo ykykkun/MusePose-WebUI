@@ -1,1 +1,1 @@
-nohup python app.py &
+nohup python app.py > musepose.log 2>&1 &
