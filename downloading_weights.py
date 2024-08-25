@@ -2,7 +2,6 @@ import os
 import wget
 from tqdm import tqdm
 
-
 def download_models(
     model_dir: str = os.makedirs('pretrained_weights', exist_ok=True)
 ):
