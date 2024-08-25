@@ -109,7 +109,7 @@ class App:
         demo = self.musepose_demo()
         demo.queue().launch(
             server_name="0.0.0.0",
-            port=1860,
+            port=7860,
         )
 
 if __name__ == "__main__":
