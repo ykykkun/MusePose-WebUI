@@ -108,9 +108,9 @@ class App:
     def launch(self):
         demo = self.musepose_demo()
         demo.queue().launch(
-            share=True
+            server_name="0.0.0.0",
+            port=1860,
         )
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
